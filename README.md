@@ -1,6 +1,7 @@
 # MVPApplication
 MVP模式纯净版：
-             1. 没有嵌入任何框架,可以自由加入框架：
+            
+            1. 没有嵌入任何框架,可以自由加入框架：
                                                  网络请求(okhttp,nohttp,volley,retrofit)
                                                  图片加载(glide,imageloader,piccaso,fresco)
                                                  数据库(ormlite,greendao,realm)
