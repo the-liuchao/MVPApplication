@@ -1,6 +1,6 @@
 # MVPApplication
 MVP模式纯净版：
-             1. 没有嵌入任何框架；
+             1. 没有嵌入任何框架,可以自由加入网络请求(okhttp,nohttp,volley,retrofit)+图片加载(glide,imageloader,piccaso,fresco)+数据库(ormlite,greendao,realm)+依赖注入(butterknife,dragger2)；
              2. View,Presenter,Model根据包名分层, modelinterface包是Model向Presenter通讯接口,viewinterface包是Presenter向View层通讯接口；
              3. Presenter对象中的mModel和View对象的Presenter对象都是通过Class反射得到的, 所以要确保getPresenterClass,getModelClass返回的Class含有公有的构造方法；
              4. 获取网络数据可以写在Model里面，通过modelinterface回调给Presenter,然后通过viewinterface更新View对象;
